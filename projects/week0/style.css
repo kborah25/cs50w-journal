@@ -1,0 +1,71 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+section{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+
+
+}
+.searchbox{
+    min-width: 40%;    
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+.button{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+#advsearchbutton{
+    padding: 10px;
+    border-radius: 20px;
+    border: 0px;
+    border-color: rgb(37, 37, 216);
+    background-color: rgb(37, 37, 216);
+    color: aliceblue;
+    margin-top: 15px;
+}
+
+input{
+    margin: 5px;
+
+}
+nav{
+    display: flex;
+    justify-content: right;
+    padding: 10px 30px 10px 10px;
+}
+
+.links{
+    padding: 5px;
+    margin: 5px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+label{
+    margin-top: 15px;
+}
+.container{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+
+    
+}
